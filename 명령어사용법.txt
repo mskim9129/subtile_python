@@ -1,0 +1,12 @@
+youtube_transcript_api zKRv74Jjm-w --languages ko --exclude-generated --translate en --json > test.json
+
+위 명령어 인자 설명
+1) 첫번째 인자: zKRv74Jjm-w 는 youtube video id. 재생하고자 하는 유튜브 URL 중 v=뒤에 나오는 영문자 예를 들어 https://www.youtube.com/watch?v=FXM0bnENxUs 인 경우 FXM0bnENxUs
+
+2) languages ko: 해당 유투브의 자막 중 한글로 되어 있는 자막을 원본으로 하겠다는 뜻
+
+3) exclude-generated: 유튜브가 자동으로 생성한 자막은 제외하겠다는 뜻
+
+4) translate en: 영어로 번역하겠다는 뜻. ja 는 일본어, 언어코드는 https://cloud.google.com/translate/docs/languages  참조
+
+5) json > test.json: 번역자막을 json으로 하며 파일 이름을 test.json으로 하겠다는 뜻
